@@ -1,0 +1,238 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+#root {
+  min-height: 100vh;
+}
+.App {
+  min-height: 100vh;
+  
+
+}
+
+.center {
+  padding-left: calc(50% - 700px);
+  padding-right: calc(50% - 700px);
+}
+
+.text__bold {
+  font-weight: bold;
+}
+
+.aboutme {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.04);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.aboutme__img {
+  width: 50%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.aboutme__wrapper {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+.aboutme__text {
+  text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.aboutme__text_first {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+.aboutme__text_second {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+.aboutme__text_third {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+.aboutme__text_fourth {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.skills {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.04);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.skills__title {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+.skills__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-image: url(../img/kub.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position-x: 90%;
+  background-position-y: 100%;
+  padding-bottom: 100px;
+}
+.skills__text {
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+.works {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.04);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.works__title {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+.works__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (min-width: 2000px) {
+  .center {
+    padding-left: calc(50% - 900px);
+    padding-right: calc(50% - 900px);
+  }
+}
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 490px);
+    padding-right: calc(50% - 490px);
+  }
+  .works__wrapper {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .center {
+    padding-left: calc(50% - 370px);
+    padding-right: calc(50% - 370px);
+  }
+  .aboutme__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 740px) {
+  .center {
+    padding-left: calc(50% - 350px);
+    padding-right: calc(50% - 350px);
+  }
+  .aboutme {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme__img {
+    width: 85%;
+    opacity: 0; /* Начальная прозрачность текста */
+    transform: translateX(20px); /* Начальное смещение текста */
+    transition: opacity 0.5s, transform 0.5s; /* Длительность и свойства анимации */
+  }
+  .aboutme__img.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .aboutme__wrapper {
+    width: 85%;
+  }
+  .aboutme__text {
+    opacity: 0; /* Начальная прозрачность текста */
+    transform: translateY(20px); /* Начальное смещение текста */
+    transition: opacity 0.5s, transform 0.5s; /* Длительность и свойства анимации */
+  }
+  .aboutme__text.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 715px) {
+  .center {
+    padding-left: calc(50% - 320px);
+    padding-right: calc(50% - 320px);
+  }
+}
+@media (max-width: 640px) {
+  .center {
+    padding-left: calc(50% - 300px);
+    padding-right: calc(50% - 300px);
+  }
+}
+@media (max-width: 600px) {
+  .center {
+    padding-left: calc(50% - 180px);
+    padding-right: calc(50% - 180px);
+  }
+
+  .skills__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .skills__text {
+    font-size: 14px;
+    opacity: 0; /* Начальная прозрачность текста */
+    transform: translateY(20px); /* Начальное смещение текста */
+    transition: opacity 0.5s, transform 0.5s; /* Длительность и свойства анимации */
+  }
+  .skills__text.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .skills__wrapper {
+    gap: 30px;
+    background-image: url(../img/kub.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+  }
+}
+@media (max-width: 375px) {
+  .center {
+    padding-left: calc(50% - 150px);
+    padding-right: calc(50% - 150px);
+  }
+}
+@media (max-width: 670px) {
+  .works__title {
+    text-align: center;
+  }
+  .works__wrapper {
+    justify-content: center;
+  }
+}
