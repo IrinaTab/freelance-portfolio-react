@@ -1,7 +1,7 @@
 {
   "name": "freelance-portfolio-react",
   "version": "0.1.0",
-  "homepage": "https://github.com/IrinaTab/myPortfolio",
+  "homepage": "https://irinatab.github.io/myPortfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
