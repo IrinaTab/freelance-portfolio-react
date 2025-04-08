@@ -16,7 +16,7 @@ const Content = () => {
             <div className="content__wrapper">
                 <img src={itsme} alt="it is me" className="content__photo" />
                 <h1 className="content__title content__title_big">Ирина Табия</h1>
-                <h2 className="content__title content__title_smaller">Веб-разработка,</h2>
+                <h2 className="content__title content__title_smaller">Веб-разработка, </h2>
                 <h2 className="content__title content__title_smaller">Freelance</h2>
                 <h2 className="content__title content__title_small">Образование, курсы</h2>
                 <p className="content__text">2004 - Приазовский государственный технический университет, 
