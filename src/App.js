@@ -24,10 +24,11 @@ function App() {
 
           <Routes>
 
-            <Route path="/" element={<Home />} />
-            <Route path="/aboutme" element={<Aboutme />} />
-            <Route path="/myskills" element={<Myskills />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/freelance-portfolio-react/" element={<Home />} exact/>
+            <Route path="/" element={<Home />} exact/>
+            <Route path="/aboutme" element={<Aboutme />} exact/>
+            <Route path="/myskills" element={<Myskills />} exact/>
+            <Route path="/projects" element={<Projects />} exact/>
 
 
           </Routes>
