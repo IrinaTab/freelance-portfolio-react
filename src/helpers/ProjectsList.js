@@ -1,6 +1,7 @@
 import intShop from "./../img/intShop.png";
 import miniGame from "./../img/miniGame.png";
 import coffi from "./../img/coffi.png";
+import audit from "./../img/audit.png";
 
 
 const projects = [
@@ -31,5 +32,15 @@ const projects = [
         text4: 'Для разработки сайта используются следующие технологии: HTML5, CSS3.',
         link: 'https://irinatab.github.io/batl/',
     },
+    {
+        img: audit,
+        title: 'Сайт "AUDIT',
+        text1: 'Проект был реализован в рамках тестового задания.',
+        text2: 'Целью проекта является создание удобного и функционального сайта для продажи услуг бухгалтерского учета и аудита.',
+        text3: 'HTML-разметка: содержит структуру страниц сайта. CSS-стили: определяет внешний вид сайта. JavaScript: отвечает за интерактивность и функциональность меню для мобильной версии сайта. Изображения: папка с изображениями для сайта.',
+        text4: 'Для разработки сайта используются следующие технологии: HTML5, CSS, JavaScript.',
+        link: 'https://irinatab.github.io/batl/',
+    },
+
 ]
 export {projects}
