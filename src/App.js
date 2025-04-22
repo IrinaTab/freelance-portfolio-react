@@ -23,6 +23,7 @@ function App() {
         <Navbar />
 
           <Routes>
+            
             <Route path="/freelance-portfolio-react" element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/aboutme" element={<Aboutme />} />
