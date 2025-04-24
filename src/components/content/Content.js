@@ -29,7 +29,7 @@ const Content = () => {
                         <a href="https://t.me/IrinaTabVeb" target="_blank" rel="noreferrer" className="content__tg">
                             <img src={telegram} alt="Перейти в чат Telegram" className="content__icon content__icon_tg" />
                         </a>
-                        <a href="https://wa.me/+7949" target="_blank" rel="noreferrer" className="content__wa">
+                        <a href="https://wa.me/+79498360304" target="_blank" rel="noreferrer" className="content__wa">
                             <img src={whatsapp} alt="Перейти в чат WhatsApp" className="content__icon content__icon_wa" />
                         </a>
                         <a href="mailto:irisha.tab@mail.ru" target="_blank" rel="noreferrer" className="content__email">
