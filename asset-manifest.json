@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/freelance-portfolio-react/static/css/main.ab289082.css",
-    "main.js": "/freelance-portfolio-react/static/js/main.7c39bcb1.js",
+    "main.js": "/freelance-portfolio-react/static/js/main.469b7637.js",
     "static/js/453.f00fb91e.chunk.js": "/freelance-portfolio-react/static/js/453.f00fb91e.chunk.js",
     "static/media/project-1.png": "/freelance-portfolio-react/static/media/project-1.1e93dc380552f5f4a223.png",
     "static/media/project-3.png": "/freelance-portfolio-react/static/media/project-3.8a688293e2a71fb0decb.png",
@@ -17,17 +17,18 @@
     "static/media/itsme.jpg": "/freelance-portfolio-react/static/media/itsme.cc68c79e23982de97e87.jpg",
     "static/media/project-3-mob.png": "/freelance-portfolio-react/static/media/project-3-mob.191172bcdd08456dc3e5.png",
     "static/media/project-2-mob.png": "/freelance-portfolio-react/static/media/project-2-mob.70fcd394b316e2aa351b.png",
+    "static/media/toDoList.png": "/freelance-portfolio-react/static/media/toDoList.3cab657deda6f7b2f19e.png",
     "static/media/email.svg": "/freelance-portfolio-react/static/media/email.10a040c6b56224964fc10f2b7ed68776.svg",
     "static/media/whatsapp.svg": "/freelance-portfolio-react/static/media/whatsapp.8bb3ef9882396b699e1fd25637ce7a49.svg",
     "static/media/telegram.svg": "/freelance-portfolio-react/static/media/telegram.6911ddcee0d78148436aba6184c7480d.svg",
     "index.html": "/freelance-portfolio-react/index.html",
     "static/media/burger.svg": "/freelance-portfolio-react/static/media/burger.0050783b092bfbf34a34.svg",
     "main.ab289082.css.map": "/freelance-portfolio-react/static/css/main.ab289082.css.map",
-    "main.7c39bcb1.js.map": "/freelance-portfolio-react/static/js/main.7c39bcb1.js.map",
+    "main.469b7637.js.map": "/freelance-portfolio-react/static/js/main.469b7637.js.map",
     "453.f00fb91e.chunk.js.map": "/freelance-portfolio-react/static/js/453.f00fb91e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab289082.css",
-    "static/js/main.7c39bcb1.js"
+    "static/js/main.469b7637.js"
   ]
 }
